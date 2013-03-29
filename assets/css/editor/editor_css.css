@@ -1,0 +1,48 @@
+<style>
+#content
+{
+	width:1280px;
+	height:800px;
+	background-color:#CCCCCC;
+	margin:0 auto;
+}
+#leftpart
+{
+	width:800px;
+	height:800px;
+	background-color:#00FF00;
+	float:left;
+	display:block;
+}
+#rightpart
+{
+	width:480px;
+	height:800px;
+	float:left;
+	display:block;
+	background-color:#00FFFF;
+}
+#tools
+{
+	width:800px;
+	height:70px;
+	float:left;
+	display:block;
+	background-color:#0000FF;
+}
+#ccanvas
+{
+	width:800px;
+	height:600px;
+	float:left;
+	display:block;
+	background-color:#FFFF00;
+}
+#history
+{
+	width:800px;
+	height:130px;
+	float:left;
+	display:block;
+	background-color:#FF0000;
+}

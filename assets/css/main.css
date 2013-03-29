@@ -1,0 +1,41 @@
+body
+{
+	font-size: 15px;
+}
+#wrap
+{
+	margin: 0 auto;
+	width: 1024px;
+	min-height:768px;
+}
+#header
+{
+	width: 1024px;
+	height:150px;
+	background-color: #666;
+}
+#breadcrumb ul
+{
+	float:right;
+	list-style:none;
+}
+
+#breadcrumb ul li{
+float:left;
+margin:0px 10px 0px 0px;
+}
+
+#footer
+{
+	width: 1024px;
+	height:40px;
+	color: #fff;
+	background-color: #000;
+	line-height: 40px;
+	text-align: right;
+}
+#container
+{
+	width: 1024px;
+	height: 600px;
+}
