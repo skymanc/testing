@@ -73,6 +73,10 @@ class User_model extends CI_Model {
         else
         {
 	        // Generate a login url
+            $data['username'] = '';
+            $data['email'] = '';
+            $data['fbid'] = '';
+            $data['image'] = '';
 	        $data['url'] = $this->facebook->getLoginUrl(array(
 	            'scope' => 'email,offline_access,publish_stream,user_birthday,user_location,user_about_me,user_hometown',
 	            'redirect_uri' => 'http://app.mokafunpp.com/login/checkUser'

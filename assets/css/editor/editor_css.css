@@ -8,15 +8,14 @@
 }
 #leftpart
 {
-	width:800px;
+	width:810px;
 	height:800px;
-	background-color:#00FF00;
 	float:left;
 	display:block;
 }
 #rightpart
 {
-	width:480px;
+	width:460px;
 	height:800px;
 	float:left;
 	display:block;
@@ -24,25 +23,39 @@
 }
 #tools
 {
-	width:800px;
+	width:820px;
 	height:70px;
 	float:left;
 	display:block;
-	background-color:#0000FF;
 }
 #ccanvas
 {
-	width:800px;
-	height:600px;
+	width:820px;
+	height:620px;
 	float:left;
 	display:block;
-	background-color:#FFFF00;
+
 }
 #history
 {
 	width:800px;
-	height:130px;
+	height:110px;
 	float:left;
 	display:block;
-	background-color:#FF0000;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.hisImgDiv
+{
+	width: 100px;
+	height: 75px;
+	border:#000 2px solid;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;;
+}
+.item
+{
+	margin: 5px;
 }
